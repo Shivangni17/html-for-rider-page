@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ridesharing.css">
+    <title>Rider's page</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img
+                    src="https://i.pinimg.com/736x/64/58/d8/6458d8ca5a855101fe370c646df680bf--taxi-logo-car-logos.jpg"
+                    alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">Book your cab</a></li>
+
+        </ul>
+
+    </nav>
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">HELLO RIDER</p>
+                <p class="text-small">ON DEMAND RIDES<br>FOR<br>IN DEMAND PEOPLE<br>
+                    Whether you want to get through your everyday travel needs or ride out
+                    off the town we provide you with the best way to travel to your destination.
+                    We will match you with a driver in seconds.
+                <ul>
+                    <li>Experience the best</li>
+                    <li>Safe and secure rides</li>
+                    <li>Freedom to choose anytime,anywhere</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="secondHalf">
+                <img src="https://assets.rbl.ms/25585849/origin.jpg" alt="Remote image">
+            </div>
+        </div>
+    </section>
+    <section class="section section-left" id="about">
+        <div class="paras">
+            <p class="sectionTag text-big">Book a cab for yourself or a loved one</p>
+            <p class="sectionSubTag text-small">All you have to do is enter a pick - up and drop - off location
+                and we will match you with a driver.<br>
+                The steps are simple, all you have to do is provide us the undersigned :
+
+            <ul>
+                <li>Let us know your pick - up location</li>
+                <li>Enter a drop - off location</li>
+                <li>We understand your privacy concerns</li>
+            </ul>
+            <h3 class="text-center">Enter the details</h3>
+            <div class="form">
+                <!-- copy and paste the link of the database server in action -->
+                <form action="">
+                    <input class="form-input" type="text" name="name" id="name" placeholder="Enter pick up location"
+                        required>
+                    <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter drop off location"
+                        required>
+                    <input class="form-input" type="email" name="email" id="email" placeholder="Enter pick up time">
+                    <button class="btn btn-sm btn-dark">Book your cab</button>
+                </form>
+            </div>
+            </p>
+        </div>
+
+    </section>
+</body>
+
+</html>
